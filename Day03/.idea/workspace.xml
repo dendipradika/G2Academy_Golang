@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="529eec7d-1eca-479b-980a-2a830ced6bca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../tugas_day02_parkir.go" beforeDir="false" afterPath="$PROJECT_DIR$/../tugas_day02_parkir.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="F:/Installed/Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1fpHDFuWgVG61sCp955Ev7CezoR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor.code.editing" />
+  </component>
+  <component name="RunManager">
+    <configuration name="go build tugas_day03_main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Day03" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/tugas_day03_main.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build tugas_day03_main.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="475" y="300" key="#GOROOT" timestamp="1596908384105">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="475" y="300" key="#GOROOT/0.0.1366.738@0.0.1366.738" timestamp="1596908384105" />
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1596908382376">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1596908382376" />
+    <state width="1323" height="126" key="GridCell.Tab.0.bottom" timestamp="1596912251320">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="126" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1596912251320" />
+    <state width="1323" height="126" key="GridCell.Tab.0.center" timestamp="1596912251320">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="126" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1596912251320" />
+    <state width="1323" height="126" key="GridCell.Tab.0.left" timestamp="1596912251320">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="126" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1596912251320" />
+    <state width="1323" height="126" key="GridCell.Tab.0.right" timestamp="1596912251320">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="126" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1596912251320" />
+    <state x="178" y="0" width="998" height="708" key="SettingsEditor" timestamp="1596913233854">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="178" y="0" width="998" height="708" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1596913233854" />
+  </component>
+</project>
