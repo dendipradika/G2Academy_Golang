@@ -1,0 +1,28 @@
+syntax="proto3";
+
+package model;
+
+import "google/protobuf/Empty.proto";
+
+service ParkingService{
+  rpc ParkIn(google.protobuf.Empty) returns (DataIn){}
+  rpc ParkOut(InputData) returns (DataOut){}
+}
+
+message DataIn{
+  string Id = 1;
+  string Time =2;
+}
+
+message InputData{
+  string Id = 1;
+  string Platno = 2;
+  string Tipe = 3;
+}
+
+message DataOut{
+  string Id = 1;
+  string Platno = 2;
+  string Duration = 3;
+  string Message = 4;
+}
