@@ -1,0 +1,62 @@
+{{ template "header.html" . }}
+
+<div class="content-wrapper">
+  <section class="content-header">
+    <h1>Data Product
+      <small>Edit</small>
+    </h1>
+    <ol class="breadcrumb">
+      <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+      <li>Product</li>
+      <li class="active">Edit</li>
+    </ol>
+  </section>
+  
+  <section class="content">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="box box-primary">
+          <div class="box-header with-border">
+            <h3 class="box-title">Edit Data Product</h3>
+          </div>
+          {{ if . }}
+          <form role="form" method="POST" action="/productEdit_">
+            <input type="hidden" name="id" value={{ .ID }} />
+            <div class="box-body">
+              <div class="form-group">
+                <label for="exampleInputEmail1">Name</label>
+                <input type="text" class="form-control" placeholder='Enter username' name="name" value={{ .Name }}>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Price</label>
+                <input type="number" class="form-control" placeholder='Enter username' name="price" value={{ .Price }}>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Stock</label>
+                <input type="number" class="form-control" placeholder='Enter username' name="stock" value={{ .Stock }}>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Production Date</label>
+                <input type="date" class="form-control" placeholder='Enter username' name="production_date" value={{ .ProductionDate }}>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Ecpired Date</label>
+                <input type="date" class="form-control" placeholder='Enter username' name="expired_date" value={{ .ExpiredDate }}>
+              </div>
+            </div>
+
+            <div class="box-footer">
+              <input type="hidden" name="id" value="<%=id%>">
+              <button type="submit" name="aksi" value="edit" class="btn btn-primary">Edit Product</button>
+            </div>
+          </form>
+          {{ else }}
+            <h1> Data Not Found </h1>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+{{ template "footer.html" . }}
