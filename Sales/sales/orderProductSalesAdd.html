@@ -1,0 +1,51 @@
+{{ template "header.html" . }}
+
+<div class="content-wrapper">
+  <section class="content-header">
+    <h1>Sales
+      <small>Add Product Order</small>
+    </h1>
+    <ol class="breadcrumb">
+      <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+      <li>Sales</li>
+      <li class="active">Add Product Order</li>
+    </ol>
+  </section>
+  
+  <section class="content">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="box box-primary">
+          <div class="box-header with-border">
+            <h3 class="box-title">Add Product Order</h3>
+          </div>
+          <form role="form" method="POST" action="/fSalesBuyProductAdd_">
+            <input type="hidden" name="id" value="1"/>
+            <div class="box-body">
+              <div class="form-group">
+                <label for="exampleInputEmail1">Product</label>
+                <select name="product" class="form-control">
+                  {{ if . }}
+                    {{ range . }}
+                  <option value={{ .Name }}>{{ .Name }} - Rp. {{ .Price }}</option>
+                  {{ end }}
+                {{ end }}
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Qty</label>
+                <input type="number" class="form-control" placeholder="Enter Qty" name="qty">
+              </div>
+            </div>
+
+            <div class="box-footer">
+              <button type="submit" name="aksi" value="insert" class="btn btn-primary">Add Product Order</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+{{ template "footer.html" . }}

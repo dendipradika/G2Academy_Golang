@@ -1,0 +1,37 @@
+
+      <footer class="main-footer">
+        <div class="pull-right hidden-xs">
+          <b>Version</b> 1.0
+        </div>
+        <strong>Copyright &copy; 2020 <a href="#">G2 Academy</a>.</strong> All rights reserved.
+      </footer>
+    </div>
+    
+    <script src="../assets/plugins/jQuery/jQuery-2.1.4.min.js"></script>
+    
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../assets/plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="../assets/plugins/datatables/dataTables.bootstrap.min.js"></script>
+    <script src="../assets/plugins/slimScroll/jquery.slimscroll.min.js"></script>
+    
+    <script src="../assets/plugins/fastclick/fastclick.min.js"></script>
+    
+    <script src="../assets/dist/js/app.min.js"></script>
+    
+    <script src="../assets/dist/js/demo.js"></script>
+
+    <script>
+      $(function () {
+        $("#example1").DataTable();
+        $('#example2').DataTable({
+          "paging": true,
+          "lengthChange": false,
+          "searching": false,
+          "ordering": true,
+          "info": true,
+          "autoWidth": false
+        });
+      });
+    </script>
+  </body>
+</html>
